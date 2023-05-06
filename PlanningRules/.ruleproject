@@ -6,7 +6,7 @@
   <categories>any</categories>
   <paths xsi:type="ilog.rules.studio.model.xom:XOMPath" pathID="XOM">
     <entries xsi:type="ilog.rules.studio.model.xom:LibraryXOMPathEntry" name="org.eclipse.jdt.launching.JRE_CONTAINER" url="file:org.eclipse.jdt.launching.JRE_CONTAINER" kind="LIBRARY" exported="false"/>
-    <entries xsi:type="ilog.rules.studio.model.xom:SystemXOMPathEntry" name="ScreeningXom" url="platform:/ScreeningXom" kind="JAVA_PROJECT" exported="true"/>
+    <entries xsi:type="ilog.rules.studio.model.xom:SystemXOMPathEntry" name="PlanningXom" url="platform:/PlanningXom" kind="JAVA_PROJECT" exported="true"/>
   </paths>
   <paths xsi:type="ilog.rules.studio.model.bom:BOMPath" pathID="BOM">
     <entries xsi:type="ilog.rules.studio.model.bom:BOMEntry" name="model" url="platform:/PlanningRules/bom/model.bom" origin="xom:/PlanningRules//ScreeningXom"/>

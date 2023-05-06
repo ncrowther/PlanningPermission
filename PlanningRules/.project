@@ -3,7 +3,7 @@
 	<name>PlanningRules</name>
 	<comment></comment>
 	<projects>
-		<project>ScreeningXom</project>
+		<project>PlanningXom</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

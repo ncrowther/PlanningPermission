@@ -7,5 +7,6 @@
     the energy use of 'the planning request' is AirConditioningUnit
     and 'the property geo data' is in conservation area 
 then
-    add "You may need planning permission to add a visible compressor unit as it may impact on the amenity of neighbours. Town and Country Planning Act 1990 (Section 55)" to the rejection reasons of 'the recommendation' ;]]></definition>
+    add "You may need planning permission to add a visible compressor unit as it may impact on the amenity of neighbours. " + 
+    "Town and Country Planning Act 1990 (Section 55)" to the rejection reasons of 'the recommendation' ;]]></definition>
 </ilog.rules.studio.model.brl:ActionRule>
