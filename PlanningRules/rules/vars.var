@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>vars</name>
+  <uuid>46c16a58-3e3c-4dc9-9436-c12e62d487e3</uuid>
+  <variables name="planningRequest" type="gov.bom.PlanningRequest" initialValue="" verbalization="the planning request"/>
+  <variables name="propertyGeoData" type="gov.bom.PropertyGeoData" initialValue="" verbalization="the property geo data"/>
+  <variables name="recommendation" type="gov.bom.Recommendation" initialValue="new gov.bom.Recommendation()" verbalization="the recommendation"/>
+</ilog.rules.studio.model.base:VariableSet>

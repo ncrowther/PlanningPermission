@@ -1,0 +1,76 @@
+# Vocabulary Properties
+uuid = 9292d096-d813-4773-b884-3869d7522976
+
+# gov.bom.BuildingUse
+gov.bom.BuildingUse#concept.label = building use
+gov.bom.BuildingUse.AnimalEnclosure#instance.label = AnimalEnclosure
+gov.bom.BuildingUse.Bedroom#instance.label = Bedroom
+gov.bom.BuildingUse.CarParkingShelter#instance.label = CarParkingShelter
+gov.bom.BuildingUse.GamesRoom#instance.label = GamesRoom
+gov.bom.BuildingUse.Garage#instance.label = Garage
+gov.bom.BuildingUse.GrannyAnnexe#instance.label = GrannyAnnexe
+gov.bom.BuildingUse.Greenhouse#instance.label = Greenhouse
+gov.bom.BuildingUse.Gym#instance.label = Gym
+gov.bom.BuildingUse.Office#instance.label = Office
+gov.bom.BuildingUse.Sauna#instance.label = Sauna
+gov.bom.BuildingUse.SelfContainedDwelling#instance.label = SelfContainedDwelling
+gov.bom.BuildingUse.Shed#instance.label = Shed
+gov.bom.BuildingUse.SmokingShelter#instance.label = SmokingShelter
+gov.bom.BuildingUse.SomethingElse#instance.label = SomethingElse
+gov.bom.BuildingUse.Storage#instance.label = Storage
+gov.bom.BuildingUse.Studio#instance.label = Studio
+gov.bom.BuildingUse.SummerHouse#instance.label = SummerHouse
+gov.bom.BuildingUse.SwimmingPool#instance.label = SwimmingPool
+gov.bom.BuildingUse.Tank#instance.label = Tank
+gov.bom.BuildingUse.Verandah#instance.label = Verandah
+gov.bom.BuildingUse.Workshop#instance.label = Workshop
+
+# gov.bom.EnergyUse
+gov.bom.EnergyUse#concept.label = energy use
+gov.bom.EnergyUse.AirConditioningUnit#instance.label = AirConditioningUnit
+gov.bom.EnergyUse.CarChargingPoint#instance.label = CarChargingPoint
+gov.bom.EnergyUse.Flue#instance.label = Flue
+gov.bom.EnergyUse.HeatPump#instance.label = HeatPump
+gov.bom.EnergyUse.SolarPanels#instance.label = SolarPanels
+gov.bom.EnergyUse.WindTurbine#instance.label = WindTurbine
+
+# gov.bom.PlanningRequest
+gov.bom.PlanningRequest#concept.label = planning request
+gov.bom.PlanningRequest.alwaysHouse#phrase.action = make it {always house} that {this} is always house
+gov.bom.PlanningRequest.alwaysHouse#phrase.navigation = {this} is always house
+gov.bom.PlanningRequest.buildingUse#phrase.action = set the building use of {this} to {building use}
+gov.bom.PlanningRequest.buildingUse#phrase.navigation = {building use} of {this}
+gov.bom.PlanningRequest.distanceInMetresOfExtensionFromRearBoundary#phrase.action = set the distance in metres of extension from rear boundary of {this} to {distance in metres of extension from rear boundary}
+gov.bom.PlanningRequest.distanceInMetresOfExtensionFromRearBoundary#phrase.navigation = {distance in metres of extension from rear boundary} of {this}
+gov.bom.PlanningRequest.energyUse#phrase.action = set the energy use of {this} to {energy use}
+gov.bom.PlanningRequest.energyUse#phrase.navigation = {energy use} of {this}
+gov.bom.PlanningRequest.extensionHeight#phrase.action = set the extension height of {this} to {extension height}
+gov.bom.PlanningRequest.extensionHeight#phrase.navigation = {extension height} of {this}
+gov.bom.PlanningRequest.percentageOfPropertyCoveredByExtension#phrase.action = set the percentage of property covered by extension of {this} to {percentage of property covered by extension}
+gov.bom.PlanningRequest.percentageOfPropertyCoveredByExtension#phrase.navigation = {percentage of property covered by extension} of {this}
+gov.bom.PlanningRequest.storiesOfOriginalHouse#phrase.action = set the stories of original house of {this} to {stories of original house}
+gov.bom.PlanningRequest.storiesOfOriginalHouse#phrase.navigation = {stories of original house} of {this}
+
+# gov.bom.PropertyGeoData
+gov.bom.PropertyGeoData#concept.label = property geo data
+gov.bom.PropertyGeoData.detached#phrase.action = make it {detached} that {this} is detached
+gov.bom.PropertyGeoData.detached#phrase.navigation = {this} is detached
+gov.bom.PropertyGeoData.inAreaOfOutstandingNaturalBeauty#phrase.action = make it {in area of outstanding natural beauty} that {this} is in area of outstanding natural beauty
+gov.bom.PropertyGeoData.inAreaOfOutstandingNaturalBeauty#phrase.navigation = {this} is in area of outstanding natural beauty
+gov.bom.PropertyGeoData.inConservationArea#phrase.action = make it {in conservation area} that {this} is in conservation area
+gov.bom.PropertyGeoData.inConservationArea#phrase.navigation = {this} is in conservation area
+gov.bom.PropertyGeoData.inFloodRiskArea#phrase.action = make it {in flood risk area} that {this} is in flood risk area
+gov.bom.PropertyGeoData.inFloodRiskArea#phrase.navigation = {this} is in flood risk area
+gov.bom.PropertyGeoData.inSiteOfSpecialScientificInterest#phrase.action = make it {in site of special scientific interest} that {this} is in site of special scientific interest
+gov.bom.PropertyGeoData.inSiteOfSpecialScientificInterest#phrase.navigation = {this} is in site of special scientific interest
+gov.bom.PropertyGeoData.inTreePreservationOrderZone#phrase.action = make it {in tree preservation order zone} that {this} is in tree preservation order zone
+gov.bom.PropertyGeoData.inTreePreservationOrderZone#phrase.navigation = {this} is in tree preservation order zone
+gov.bom.PropertyGeoData.listedBuilding#phrase.action = make it {listed building} that {this} is listed building
+gov.bom.PropertyGeoData.listedBuilding#phrase.navigation = {this} is listed building
+
+# gov.bom.Recommendation
+gov.bom.Recommendation#concept.label = recommendation
+gov.bom.Recommendation.accepted#phrase.action = make it {accepted} that {this} is accepted
+gov.bom.Recommendation.accepted#phrase.navigation = {this} is accepted
+gov.bom.Recommendation.addRejectionReason(java.lang.String)#phrase.action = add {0} to the rejection reasons of {this}
+gov.bom.Recommendation.rejectionReasons#phrase.navigation = {rejection reason} of {this}

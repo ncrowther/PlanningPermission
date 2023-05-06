@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>ExtensionInSSI</name>
+  <uuid>8c45ff45-3216-492e-aca3-b36872629fca</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[if
+    the building use of 'the planning request' is one of { AnimalEnclosure , 
+    GamesRoom , 
+    Garage , 
+    GrannyAnnexe , 
+    Gym , 
+    Office , 
+    Sauna , 
+    SelfContainedDwelling , 
+    Shed , 
+    SmokingShelter , 
+    SummerHouse , 
+    SwimmingPool , 
+    Tank , 
+    CarParkingShelter }
+    and 'the property geo data' is in site of special scientific interest
+then
+    add "Building not permitted in SSI" to the rejection reasons of 'the recommendation' ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

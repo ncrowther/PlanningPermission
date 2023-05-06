@@ -1,6 +1,10 @@
 # Compiled class file
 *.class
 
+# ODM files
+reports/
+output/
+
 # Log file
 *.log
 

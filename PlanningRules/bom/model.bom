@@ -1,0 +1,106 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/PlanningRules//ScreeningXom"
+property uuid "ae8a5f2a-56e3-44f1-9936-826c781503a1"
+package gov.bom;
+
+
+public final class BuildingUse
+        extends java.lang.Enum
+{
+    domain 
+    {
+        static Shed,
+        static Garage,
+        static Office,
+        static Studio,
+        static Bedroom,
+        static SelfContainedDwelling,
+        static GrannyAnnexe,
+        static SwimmingPool,
+        static Tank,
+        static Verandah,
+        static CarParkingShelter,
+        static SmokingShelter,
+        static Workshop,
+        static Gym,
+        static SummerHouse,
+        static GamesRoom,
+        static Greenhouse,
+        static AnimalEnclosure,
+        static Sauna,
+        static Storage,
+        static SomethingElse
+    }
+    public static final readonly gov.bom.BuildingUse AnimalEnclosure;
+    public static final readonly gov.bom.BuildingUse Bedroom;
+    public static final readonly gov.bom.BuildingUse CarParkingShelter;
+    public static final readonly gov.bom.BuildingUse GamesRoom;
+    public static final readonly gov.bom.BuildingUse Garage;
+    public static final readonly gov.bom.BuildingUse GrannyAnnexe;
+    public static final readonly gov.bom.BuildingUse Greenhouse;
+    public static final readonly gov.bom.BuildingUse Gym;
+    public static final readonly gov.bom.BuildingUse Office;
+    public static final readonly gov.bom.BuildingUse Sauna;
+    public static final readonly gov.bom.BuildingUse SelfContainedDwelling;
+    public static final readonly gov.bom.BuildingUse Shed;
+    public static final readonly gov.bom.BuildingUse SmokingShelter;
+    public static final readonly gov.bom.BuildingUse SomethingElse;
+    public static final readonly gov.bom.BuildingUse Storage;
+    public static final readonly gov.bom.BuildingUse Studio;
+    public static final readonly gov.bom.BuildingUse SummerHouse;
+    public static final readonly gov.bom.BuildingUse SwimmingPool;
+    public static final readonly gov.bom.BuildingUse Tank;
+    public static final readonly gov.bom.BuildingUse Verandah;
+    public static final readonly gov.bom.BuildingUse Workshop;
+    public static gov.bom.BuildingUse valueOf(string arg);
+    public static gov.bom.BuildingUse[] values();
+}
+
+public final class EnergyUse
+        extends java.lang.Enum
+{
+    domain {static CarChargingPoint, static SolarPanels, static HeatPump, static AirConditioningUnit, static WindTurbine, static Flue}
+    public static final readonly gov.bom.EnergyUse AirConditioningUnit;
+    public static final readonly gov.bom.EnergyUse CarChargingPoint;
+    public static final readonly gov.bom.EnergyUse Flue;
+    public static final readonly gov.bom.EnergyUse HeatPump;
+    public static final readonly gov.bom.EnergyUse SolarPanels;
+    public static final readonly gov.bom.EnergyUse WindTurbine;
+    public static gov.bom.EnergyUse valueOf(string arg);
+    public static gov.bom.EnergyUse[] values();
+}
+
+public class PlanningRequest
+{
+    public boolean alwaysHouse;
+    public gov.bom.BuildingUse buildingUse;
+    public int distanceInMetresOfExtensionFromRearBoundary;
+    public gov.bom.EnergyUse energyUse;
+    public int extensionHeight;
+    public int percentageOfPropertyCoveredByExtension;
+    public int storiesOfOriginalHouse;
+    public PlanningRequest();
+}
+
+public class PropertyGeoData
+{
+    public boolean detached;
+    public boolean inAreaOfOutstandingNaturalBeauty;
+    public boolean inConservationArea;
+    public boolean inFloodRiskArea;
+    public boolean inSiteOfSpecialScientificInterest;
+    public boolean inTreePreservationOrderZone;
+    public boolean listedBuilding;
+    public PropertyGeoData();
+}
+
+public class Recommendation
+{
+    public boolean accepted;
+    public readonly java.util.List rejectionReasons domain 0,* class string;
+    public Recommendation();
+    public void addRejectionReason(string arg);
+    public string toString();
+}
+

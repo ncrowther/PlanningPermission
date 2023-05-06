@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:RulePackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>EnergyAndRenewables</name>
+  <uuid>86849333-cc9a-4727-a430-99801c07be3c</uuid>
+</ilog.rules.studio.model.base:RulePackage>

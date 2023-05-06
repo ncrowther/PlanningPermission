@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:RulePackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>Demolish</name>
+  <uuid>752a887f-f5f4-48ae-9430-2cd21ee1c978</uuid>
+</ilog.rules.studio.model.base:RulePackage>
