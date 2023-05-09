@@ -1,5 +1,7 @@
 package gov.bom;
 
+/* The planning request  */
+
 public class PlanningRequest {
 
 	BuildingUse buildingUse;

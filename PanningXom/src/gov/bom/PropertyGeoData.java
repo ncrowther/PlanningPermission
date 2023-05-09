@@ -1,5 +1,7 @@
 package gov.bom;
 
+/* Geo data populated from a GIS */
+
 public class PropertyGeoData {
 
 	boolean listedBuilding;
