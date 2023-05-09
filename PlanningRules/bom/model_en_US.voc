@@ -1,5 +1,5 @@
 # Vocabulary Properties
-uuid = 9292d096-d813-4773-b884-3869d7522976
+uuid = 73dba212-077e-44f3-850b-ac3942254793
 
 # gov.bom.BuildingUse
 gov.bom.BuildingUse#concept.label = building use
@@ -34,6 +34,13 @@ gov.bom.EnergyUse.HeatPump#instance.label = HeatPump
 gov.bom.EnergyUse.SolarPanels#instance.label = SolarPanels
 gov.bom.EnergyUse.WindTurbine#instance.label = WindTurbine
 
+# gov.bom.GardenUse
+gov.bom.GardenUse#concept.label = garden use
+gov.bom.GardenUse.CutDownHedge#instance.label = CutDownHedge
+gov.bom.GardenUse.CutDownTree#instance.label = CutDownTree
+gov.bom.GardenUse.PlantHedge#instance.label = PlantHedge
+gov.bom.GardenUse.PlantTree#instance.label = PlantTree
+
 # gov.bom.PlanningRequest
 gov.bom.PlanningRequest#concept.label = planning request
 gov.bom.PlanningRequest.alwaysHouse#phrase.action = make it {always house} that {this} is always house
@@ -44,8 +51,14 @@ gov.bom.PlanningRequest.distanceInMetresOfExtensionFromRearBoundary#phrase.actio
 gov.bom.PlanningRequest.distanceInMetresOfExtensionFromRearBoundary#phrase.navigation = {distance in metres of extension from rear boundary} of {this}
 gov.bom.PlanningRequest.energyUse#phrase.action = set the energy use of {this} to {energy use}
 gov.bom.PlanningRequest.energyUse#phrase.navigation = {energy use} of {this}
+gov.bom.PlanningRequest.existingFloorArea#phrase.action = set the existing floor area of {this} to {existing floor area}
+gov.bom.PlanningRequest.existingFloorArea#phrase.navigation = {existing floor area} of {this}
+gov.bom.PlanningRequest.extensionFloorArea#phrase.action = set the extension floor area of {this} to {extension floor area}
+gov.bom.PlanningRequest.extensionFloorArea#phrase.navigation = {extension floor area} of {this}
 gov.bom.PlanningRequest.extensionHeight#phrase.action = set the extension height of {this} to {extension height}
 gov.bom.PlanningRequest.extensionHeight#phrase.navigation = {extension height} of {this}
+gov.bom.PlanningRequest.gardenUse#phrase.action = set the garden use of {this} to {garden use}
+gov.bom.PlanningRequest.gardenUse#phrase.navigation = {garden use} of {this}
 gov.bom.PlanningRequest.percentageOfPropertyCoveredByExtension#phrase.action = set the percentage of property covered by extension of {this} to {percentage of property covered by extension}
 gov.bom.PlanningRequest.percentageOfPropertyCoveredByExtension#phrase.navigation = {percentage of property covered by extension} of {this}
 gov.bom.PlanningRequest.storiesOfOriginalHouse#phrase.action = set the stories of original house of {this} to {stories of original house}

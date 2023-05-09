@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>CutDownTreeInConservationArea</name>
+  <uuid>71fd8abf-26aa-46fe-8d7f-cecd0464c8ed</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[if
+    the garden use of 'the planning request' is one of { CutDownTree, CutDownHedge }
+    and 'the property geo data' is in conservation area 
+then
+    add "Cutting down a tree or hedge in a conservation area needs planning permission" to the rejection reasons of 'the recommendation' ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

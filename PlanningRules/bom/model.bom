@@ -1,7 +1,7 @@
 
 property loadGetterSetterAsProperties "true"
-property origin "xom:/PlanningRules//ScreeningXom"
-property uuid "ae8a5f2a-56e3-44f1-9936-826c781503a1"
+property origin "xom:/ScreeningRules//PlanningXom"
+property uuid "4a3120c7-9f30-498e-a701-123e04ccd25d"
 package gov.bom;
 
 
@@ -71,13 +71,28 @@ public final class EnergyUse
     public static gov.bom.EnergyUse[] values();
 }
 
+public final class GardenUse
+        extends java.lang.Enum
+{
+    domain {static PlantTree, static PlantHedge, static CutDownTree, static CutDownHedge}
+    public static final readonly gov.bom.GardenUse CutDownHedge;
+    public static final readonly gov.bom.GardenUse CutDownTree;
+    public static final readonly gov.bom.GardenUse PlantHedge;
+    public static final readonly gov.bom.GardenUse PlantTree;
+    public static gov.bom.GardenUse valueOf(string arg);
+    public static gov.bom.GardenUse[] values();
+}
+
 public class PlanningRequest
 {
     public boolean alwaysHouse;
     public gov.bom.BuildingUse buildingUse;
     public int distanceInMetresOfExtensionFromRearBoundary;
     public gov.bom.EnergyUse energyUse;
+    public int existingFloorArea;
+    public int extensionFloorArea;
     public int extensionHeight;
+    public gov.bom.GardenUse gardenUse;
     public int percentageOfPropertyCoveredByExtension;
     public int storiesOfOriginalHouse;
     public PlanningRequest();

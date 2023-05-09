@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>ExtensionTooBig</name>
+  <uuid>b70a0b9d-225a-4851-ac3d-8106c8ee2669</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[definitions
+    set newFloorArea to the extension floor area of 'the planning request' ;
+    set existingFloorArea to the existing floor area of 'the planning request' ;
+    set percentageIncrease to newFloorArea / existingFloorArea ;
+if
+    percentageIncrease is at least 1.25
+then
+    add "Floor area over limit" to the rejection reasons of 'the recommendation' ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

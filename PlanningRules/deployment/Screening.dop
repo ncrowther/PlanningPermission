@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" xmlns:ilog.rules.studio.model.query.extractor="http://ilog.rules.studio/model/query/extractor.ecore" rulesetName="ExtensionPlanningPermission" targetRuleProjectName="PlanningRules">
-  <name>ExtensionPlanningPermission</name>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" xmlns:ilog.rules.studio.model.query.extractor="http://ilog.rules.studio/model/query/extractor.ecore" rulesetName="ExtensionPlanningPermission" targetRuleProjectName="ScreeningRules">
+  <name>Screening</name>
   <uuid>70da4551-6678-4a91-8f33-97fa3fd13c07</uuid>
   <referencedVariables variableName="planningRequest" variableSetName="vars">
     <variableSet href="../rules/vars.var#46c16a58-3e3c-4dc9-9436-c12e62d487e3"/>
@@ -11,6 +11,6 @@
   <referencedVariables variableName="propertyGeoData" variableSetName="vars">
     <variableSet href="../rules/vars.var#46c16a58-3e3c-4dc9-9436-c12e62d487e3"/>
   </referencedVariables>
-  <extractor xsi:type="ilog.rules.studio.model.query.extractor:QueryExtractor" name="ExtensionPlanningPermission_extractor" validator="Default Validator"/>
+  <extractor xsi:type="ilog.rules.studio.model.query.extractor:QueryExtractor" name="PlanningPermission_extractor" validator="Default Validator"/>
   <targetRuleProject href="../../PlanningRules#0145bdff-3fde-41dd-87ef-f46e0a454e2d"/>
 </com.ibm.rules.studio.model.decisionservice:Operation>

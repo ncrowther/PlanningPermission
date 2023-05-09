@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ilog.rules.studio.model.base:RuleProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore" xmlns:ilog.rules.studio.model.bom="http://ilog.rules.studio/model/bom.ecore" xmlns:ilog.rules.studio.model.query="http://ilog.rules.studio/model/query.ecore" xmlns:ilog.rules.studio.model.rule="http://ilog.rules.studio/model/rule.ecore" xmlns:ilog.rules.studio.model.xom="http://ilog.rules.studio/model/xom.ecore" buildMode="DecisionEngine" isADecisionService="true" migrationFlag="3">
-  <name>PlanningRules</name>
+  <name>ScreeningRules</name>
   <uuid>0145bdff-3fde-41dd-87ef-f46e0a454e2d</uuid>
   <outputLocation>output</outputLocation>
   <categories>any</categories>
@@ -9,7 +9,7 @@
     <entries xsi:type="ilog.rules.studio.model.xom:SystemXOMPathEntry" name="PlanningXom" url="platform:/PlanningXom" kind="JAVA_PROJECT" exported="true"/>
   </paths>
   <paths xsi:type="ilog.rules.studio.model.bom:BOMPath" pathID="BOM">
-    <entries xsi:type="ilog.rules.studio.model.bom:BOMEntry" name="model" url="platform:/PlanningRules/bom/model.bom" origin="xom:/PlanningRules//ScreeningXom"/>
+    <entries xsi:type="ilog.rules.studio.model.bom:BOMEntry" name="model" url="platform:/ScreeningRules/bom/model.bom" origin="xom:/ScreeningRules//PlanningXom"/>
   </paths>
   <modelFolders xsi:type="ilog.rules.studio.model.base:SourceFolder">
     <name>rules</name>

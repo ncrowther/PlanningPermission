@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Pool</name>
+  <uuid>89c3ec6a-e92c-4804-b058-acd4aa137d92</uuid>
+  <locale>en_US</locale>
+</ilog.rules.studio.model.brl:ActionRule>

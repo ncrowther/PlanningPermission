@@ -3,8 +3,8 @@
   <name>ScotGovDev</name>
   <uuid>456b8d5c-a87d-495b-a5bc-2e94a3eeab8a</uuid>
   <targets label="localRes"/>
-  <operations operationName="ExtensionPlanningPermission">
-    <operation href="ExtensionPlanningPermission.dop#70da4551-6678-4a91-8f33-97fa3fd13c07"/>
+  <operations operationName="Screening.dop">
+    <operation href="Screening.dop#70da4551-6678-4a91-8f33-97fa3fd13c07"/>
     <properties key="ruleset.version">
       <value><![CDATA[1.0]]></value>
     </properties>
